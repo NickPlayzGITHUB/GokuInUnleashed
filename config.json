@@ -1,0 +1,115 @@
+{
+	"Groups":[
+		{
+		"Name":"Main",
+		"DisplayName":"Configuration",
+		"Elements":
+			[
+
+				{
+					"Name":"IncludeDir1",
+					"DisplayName":"Goku Voice Language",
+					"Description":[
+						"Pick your favourite Goku Voice actor!",
+					],
+					"Type":"VoiceB",
+					"MinValue":null,
+					"MaxValue":null,
+					"DefaultValue":"jp"
+				},
+
+				{
+					"Name":"IncludeDir0",
+					"DisplayName":"Day Goku's Appearance",
+					"Description":[
+						"Choose a look for Day Goku!",
+					],
+					"Type":"LookB",
+					"MinValue":null,
+					"MaxValue":null,
+					"DefaultValue":"goku"
+				},
+
+				{
+					"Name":"IncludeDir2",
+					"DisplayName":"Night Goku's Appearance",
+					"Description":[
+						"Choose a look for Night Goku!",
+					],
+					"Type":"Look2B",
+					"MinValue":null,
+					"MaxValue":null,
+					"DefaultValue":"./nGoku/w/s/"
+				},
+			]
+		}
+	],
+	"Enums":{
+		"VoiceB":[
+			{
+				"DisplayName":"Japanese",
+				"Value":"jp",
+				"Description":[
+					"Set Goku's Voice to Japanese, Voiced by Masako Nozawa",
+            ]
+			},
+			{
+				"DisplayName":"English",
+				"Value":"eng",
+				"Description":[
+					"Set Goku's Voice to English, Voiced by Sean Shemmel",
+				]
+			},
+		],
+
+		"LookB":[
+			{
+				"DisplayName":"Standard",
+				"Value":"goku",
+				"Description":[
+					"Non-Stylized Look! Makes Goku look like he belongs in the game",
+            ]
+			},
+			{
+				"DisplayName":"Cel-Shaded",
+				"Value":"gokuCelS",
+				"Description":[
+					"Give Goku an Anime Styled Look! Makes Goku stand out!",
+				]
+			},
+		],
+
+		"Look2B":[
+			{
+				"DisplayName":"Werewolf Goku + Standard",
+				"Value":"./nGoku/w/s/",
+				"Description":[
+					"A Goku design that more resembles the Werehog with Standard Shading",
+            ]
+			},
+			{
+				"DisplayName":"Werewolf Goku + Cel-Shading",
+				"Value":"./nGoku/w/cs/",
+				"Description":[
+					"A Goku design that more resembles the Werehog with Cel-Shading\n\nThe Cel Shading effect can cause visual bugs, If you're unsure choose Standard",
+				]
+			},
+			{
+				"DisplayName":"SSJ4 Goku + Standard",
+				"Value":"./nGoku/s4/s/",
+				"Description":[
+					"A Goku design that more resembles Goku's Saiyan Roots with Standard Shading",
+            ]
+			},
+			{
+				"DisplayName":"SSJ4 Goku + Cel-Shading",
+				"Value":"./nGoku/s4/cs/",
+				"Description":[
+					"A Goku design that more resembles Goku's Saiyan Roots with Cel-Shading\n\nThe Cel Shading effect can cause visual bugs, If you're unsure choose Standard",
+				]
+			},
+			
+		],
+	},
+	"IniFile":"mod.ini"
+}

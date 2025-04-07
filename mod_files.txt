@@ -1,9 +1,9 @@
-add eng
-add global
-add goku
-add gokuCelS
-add jp
-add nGoku
-add profiles
+add ./eng/
+add ./global/
+add ./goku/
+add ./gokuCelS/
+add ./jp/
+add ./nGoku/
+add ./profiles/
 add mod.ini
 add config.json

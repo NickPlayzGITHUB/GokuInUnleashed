@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 add config.json
 add mod.ini
 add eng\Sound\vs_result_evil_e.cpk
@@ -59,3 +60,14 @@ add nGoku\w\s\+EvilSonic.arl
 add nGoku\w\s\Inspire\chara\EvilEVRoot.ar.00
 add nGoku\w\s\Inspire\chara\EvilEVRoot.arl
 add profiles\Default.ini
+=======
+add ./eng/
+add ./global/
+add ./goku/
+add ./gokuCelS/
+add ./jp/
+add ./nGoku/
+add ./profiles/
+add mod.ini
+add config.json
+>>>>>>> 837778b33eea7345b07f70eede940069f4e096bd

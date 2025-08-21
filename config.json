@@ -6,41 +6,60 @@
 		"Elements":
 			[
 
-				{
-					"Name":"IncludeDir1",
-					"DisplayName":"Goku Voice Language",
-					"Description":[
-						"Pick your favourite Goku Voice actor!",
-					],
-					"Type":"VoiceB",
-					"MinValue":null,
-					"MaxValue":null,
-					"DefaultValue":"jp"
-				},
 
 				{
-					"Name":"IncludeDir0",
+					"Name":"IncludeDir1",
 					"DisplayName":"Day Goku's Appearance",
 					"Description":[
-						"Choose a look for Day Goku!",
+						"Choose a look for Day Goku!"
 					],
 					"Type":"LookB",
 					"MinValue":null,
 					"MaxValue":null,
-					"DefaultValue":"goku"
+					"DefaultValue":"./Skin/Day/Cel/C00 B/"
 				},
 
 				{
 					"Name":"IncludeDir2",
 					"DisplayName":"Night Goku's Appearance",
 					"Description":[
-						"Choose a look for Night Goku!",
+						"Choose a look for Night Goku!"
 					],
 					"Type":"Look2B",
 					"MinValue":null,
 					"MaxValue":null,
-					"DefaultValue":"./nGoku/w/s/"
+					"DefaultValue":"./Skin/Night/Cel/C01 4/"
+				}
+			]
+		},
+		{
+		"Name":"Main",
+		"DisplayName":"Extra Options",
+		"Elements":
+			[
+				{
+					"Name":"IncludeDir3",
+					"DisplayName":"Goku Voice Language",
+					"Description":[
+						"Pick your favourite Goku Voice actor!"
+					],
+					"Type":"VoiceB",
+					"MinValue":null,
+					"MaxValue":null,
+					"DefaultValue":"./Vocal/jp/"
 				},
+
+				{
+					"Name":"IncludeDir0",
+					"DisplayName":"Enhanced Cel-Shaded Super Saiyan Outline",
+					"Description":[
+						"Toggle Cel-Shaded Super Saiyan models with glowing yellow outline (enabled) or a standard black outline (disabled)"
+					],
+					"Type":"OutLB",
+					"MinValue":null,
+					"MaxValue":null,
+					"DefaultValue":"./Misc/SSO/off/"
+				}
 			]
 		}
 	],
@@ -48,68 +67,100 @@
 		"VoiceB":[
 			{
 				"DisplayName":"Japanese",
-				"Value":"jp",
+				"Value":"./Vocal/jp/",
 				"Description":[
-					"Set Goku's Voice to Japanese, Voiced by Masako Nozawa",
+					"Set Goku's Voice to Japanese, Voiced by Masako Nozawa"
             ]
 			},
 			{
 				"DisplayName":"English",
-				"Value":"eng",
+				"Value":"./Vocal/eng/",
 				"Description":[
-					"Set Goku's Voice to English, Voiced by Sean Shemmel",
+					"Set Goku's Voice to English, Voiced by Sean Shemmel"
 				]
-			},
+			}
 		],
 
 		"LookB":[
 			{
-				"DisplayName":"Standard",
-				"Value":"goku",
+				"DisplayName":"Base Form + Standard",
+				"Value":"./Skin/Day/Reg/C00 B/",
 				"Description":[
-					"Non-Stylized Look! Makes Goku look like he belongs in the game",
+					"Non-Stylized Look! Makes Goku look like he belongs in the game"
             ]
 			},
 			{
-				"DisplayName":"Cel-Shaded",
-				"Value":"gokuCelS",
+				"DisplayName":"Base Form + Cel-Shaded",
+				"Value":"./Skin/Day/Cel/C00 B/",
 				"Description":[
-					"Give Goku an Anime Styled Look! Makes Goku stand out!",
+					"Give Goku an Anime Styled Look! Makes Goku stand out!"
 				]
 			},
+			{
+				"DisplayName":"SSJ3 + Standard",
+				"Value":"./Skin/Day/Reg/C01 3/",
+				"Description":[
+					"Non-Stylized Look! Makes Goku look like he belongs in the game"
+            ]
+			},
+			{
+				"DisplayName":"SSJ3 + Cel-Shaded",
+				"Value":"./Skin/Day/Cel/C01 3/",
+				"Description":[
+					"Give Goku an Anime Styled Look! Makes Goku stand out!"
+				]
+			}
 		],
 
 		"Look2B":[
 			{
 				"DisplayName":"Werewolf Goku + Standard",
-				"Value":"./nGoku/w/s/",
+				"Value":"./Skin/Night/Reg/C00 W/",
 				"Description":[
-					"A Goku design that more resembles the Werehog with Standard Shading",
+					"A Goku design that more resembles the Werehog with Standard Shading"
             ]
 			},
 			{
 				"DisplayName":"Werewolf Goku + Cel-Shading",
-				"Value":"./nGoku/w/cs/",
+				"Value":"./Skin/Night/Cel/C00 W/",
 				"Description":[
-					"A Goku design that more resembles the Werehog with Cel-Shading\n\nThe Cel Shading effect can cause visual bugs, If you're unsure choose Standard",
+					"A Goku design that more resembles the Werehog with Cel-Shading\n\nThe Cel Shading effect can cause visual bugs, If you're unsure choose Standard"
 				]
 			},
 			{
 				"DisplayName":"SSJ4 Goku + Standard",
-				"Value":"./nGoku/s4/s/",
+				"Value":"./Skin/Night/Reg/C01 4/",
 				"Description":[
-					"A Goku design that more resembles Goku's Saiyan Roots with Standard Shading",
+					"A Goku design that more resembles Goku's Saiyan Roots with Standard Shading"
             ]
 			},
 			{
 				"DisplayName":"SSJ4 Goku + Cel-Shading",
-				"Value":"./nGoku/s4/cs/",
+				"Value":"./Skin/Night/Cel/C01 4/",
 				"Description":[
-					"A Goku design that more resembles Goku's Saiyan Roots with Cel-Shading\n\nThe Cel Shading effect can cause visual bugs, If you're unsure choose Standard",
+					"A Goku design that more resembles Goku's Saiyan Roots with Cel-Shading\n\nThe Cel Shading effect can cause visual bugs, If you're unsure choose Standard"
 				]
-			},
+			}
 			
 		],
+
+		"OutLB":[
+			{
+				"DisplayName":"Enabled",
+				"Value":"./Misc/SSO/on/",
+				"Description":[
+					"Glowing Yellow Outlines as a Super Saiyan"
+            ]
+			},
+			{
+				"DisplayName":"Disabled",
+				"Value":"./Misc/SSO/off/",
+				"Description":[
+					"Standard Black Outlines as a Super Saiyan"
+				]
+			}
+		]
+		
 	},
 	"IniFile":"mod.ini"
 }

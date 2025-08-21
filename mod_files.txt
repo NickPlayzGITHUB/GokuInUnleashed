@@ -1,67 +1,167 @@
+delete config.json
+delete mod.ini
+delete eng/Sound/vs_result_evil_e.cpk
+delete eng/Sound/vs_result_evil_e.csb
+delete eng/Sound/vs_result_sonic_e.cpk
+delete eng/Sound/vs_result_sonic_e.csb
+delete eng/voices/English/EvilSonic.ar.00
+delete eng/voices/English/EvilSonic.arl
+delete eng/voices/English/Sonic.ar.00
+delete eng/voices/English/Sonic.arl
+delete eng/voices/Japanese/EvilSonic.ar.00
+delete eng/voices/Japanese/EvilSonic.arl
+delete eng/voices/Japanese/Sonic.ar.00
+delete eng/voices/Japanese/Sonic.arl
+delete goku/+Sonic.ar.00
+delete goku/+Sonic.arl
+delete goku/+SuperSonic.ar.00
+delete goku/+SuperSonic.arl
+delete goku/Inspire/chara/SonicEVRoot.ar.00
+delete goku/Inspire/chara/SonicEVRoot.arl
+delete goku/Inspire/scene/+evrt_m8_11_3.ar.00
+delete goku/Inspire/scene/+evrt_m8_11_3.arl
+delete gokuCelS/+Sonic.ar.00
+delete gokuCelS/+Sonic.arl
+delete gokuCelS/+SuperSonic.ar.00
+delete gokuCelS/+SuperSonic.arl
+delete gokuCelS/Inspire/chara/SonicEVRoot.ar.00
+delete gokuCelS/Inspire/chara/SonicEVRoot.arl
+delete gokuCelS/Inspire/scene/+evrt_m8_11_3.ar.00
+delete gokuCelS/Inspire/scene/+evrt_m8_11_3.arl
+delete jp/Sound/vs_result_evil_e.cpk
+delete jp/Sound/vs_result_evil_e.csb
+delete jp/Sound/vs_result_sonic_e.cpk
+delete jp/Sound/vs_result_sonic_e.csb
+delete jp/voices/English/+EvilSonic.ar.00
+delete jp/voices/English/+EvilSonic.arl
+delete jp/voices/English/Sonic.ar.00
+delete jp/voices/English/Sonic.arl
+delete jp/voices/Japanese/+EvilSonic.ar.00
+delete jp/voices/Japanese/+EvilSonic.arl
+delete jp/voices/Japanese/Sonic.ar.00
+delete jp/voices/Japanese/Sonic.arl
+delete nGoku/s4/cs/+EvilSonic.ar.00
+delete nGoku/s4/cs/+EvilSonic.arl
+delete nGoku/s4/cs/+SystemCommonCore.ar.00
+delete nGoku/s4/cs/+SystemCommonCore.arl
+delete nGoku/s4/cs/Inspire/chara/EvilEVRoot.ar.00
+delete nGoku/s4/cs/Inspire/chara/EvilEVRoot.arl
+delete nGoku/s4/s/+EvilSonic.ar.00
+delete nGoku/s4/s/+EvilSonic.arl
+delete nGoku/s4/s/+SystemCommonCore.ar.00
+delete nGoku/s4/s/+SystemCommonCore.arl
+delete nGoku/s4/s/Inspire/chara/EvilEVRoot.ar.00
+delete nGoku/s4/s/Inspire/chara/EvilEVRoot.arl
+delete nGoku/w/cs/+EvilSonic.ar.00
+delete nGoku/w/cs/+EvilSonic.arl
+delete nGoku/w/cs/+SystemCommonCore.ar.00
+delete nGoku/w/cs/+SystemCommonCore.arl
+delete nGoku/w/cs/Inspire/chara/EvilEVRoot.ar.00
+delete nGoku/w/cs/Inspire/chara/EvilEVRoot.arl
+delete nGoku/w/s/+EvilSonic.ar.00
+delete nGoku/w/s/+EvilSonic.arl
+delete nGoku/w/s/+SystemCommonCore.ar.00
+delete nGoku/w/s/+SystemCommonCore.arl
+delete nGoku/w/s/Inspire/chara/EvilEVRoot.ar.00
+delete nGoku/w/s/Inspire/chara/EvilEVRoot.arl
+delete profiles/Default.ini
 add config.json
 add mod.ini
-add eng/Sound/vs_result_evil_e.cpk
-add eng/Sound/vs_result_evil_e.csb
-add eng/Sound/vs_result_sonic_e.cpk
-add eng/Sound/vs_result_sonic_e.csb
-add eng/voices/English/EvilSonic.ar.00
-add eng/voices/English/EvilSonic.arl
-add eng/voices/English/Sonic.ar.00
-add eng/voices/English/Sonic.arl
-add eng/voices/Japanese/EvilSonic.ar.00
-add eng/voices/Japanese/EvilSonic.arl
-add eng/voices/Japanese/Sonic.ar.00
-add eng/voices/Japanese/Sonic.arl
-add goku/+Sonic.ar.00
-add goku/+Sonic.arl
-add goku/+SuperSonic.ar.00
-add goku/+SuperSonic.arl
-add goku/Inspire/chara/SonicEVRoot.ar.00
-add goku/Inspire/chara/SonicEVRoot.arl
-add goku/Inspire/scene/+evrt_m8_11_3.ar.00
-add goku/Inspire/scene/+evrt_m8_11_3.arl
-add gokuCelS/+Sonic.ar.00
-add gokuCelS/+Sonic.arl
-add gokuCelS/+SuperSonic.ar.00
-add gokuCelS/+SuperSonic.arl
-add gokuCelS/Inspire/chara/SonicEVRoot.ar.00
-add gokuCelS/Inspire/chara/SonicEVRoot.arl
-add gokuCelS/Inspire/scene/+evrt_m8_11_3.ar.00
-add gokuCelS/Inspire/scene/+evrt_m8_11_3.arl
-add jp/Sound/vs_result_evil_e.cpk
-add jp/Sound/vs_result_evil_e.csb
-add jp/Sound/vs_result_sonic_e.cpk
-add jp/Sound/vs_result_sonic_e.csb
-add jp/voices/English/+EvilSonic.ar.00
-add jp/voices/English/+EvilSonic.arl
-add jp/voices/English/Sonic.ar.00
-add jp/voices/English/Sonic.arl
-add jp/voices/Japanese/+EvilSonic.ar.00
-add jp/voices/Japanese/+EvilSonic.arl
-add jp/voices/Japanese/Sonic.ar.00
-add jp/voices/Japanese/Sonic.arl
-add nGoku/s4/cs/+EvilSonic.ar.00
-add nGoku/s4/cs/+EvilSonic.arl
-add nGoku/s4/cs/+SystemCommonCore.ar.00
-add nGoku/s4/cs/+SystemCommonCore.arl
-add nGoku/s4/cs/Inspire/chara/EvilEVRoot.ar.00
-add nGoku/s4/cs/Inspire/chara/EvilEVRoot.arl
-add nGoku/s4/s/+EvilSonic.ar.00
-add nGoku/s4/s/+EvilSonic.arl
-add nGoku/s4/s/+SystemCommonCore.ar.00
-add nGoku/s4/s/+SystemCommonCore.arl
-add nGoku/s4/s/Inspire/chara/EvilEVRoot.ar.00
-add nGoku/s4/s/Inspire/chara/EvilEVRoot.arl
-add nGoku/w/cs/+EvilSonic.ar.00
-add nGoku/w/cs/+EvilSonic.arl
-add nGoku/w/cs/+SystemCommonCore.ar.00
-add nGoku/w/cs/+SystemCommonCore.arl
-add nGoku/w/cs/Inspire/chara/EvilEVRoot.ar.00
-add nGoku/w/cs/Inspire/chara/EvilEVRoot.arl
-add nGoku/w/s/+EvilSonic.ar.00
-add nGoku/w/s/+EvilSonic.arl
-add nGoku/w/s/+SystemCommonCore.ar.00
-add nGoku/w/s/+SystemCommonCore.arl
-add nGoku/w/s/Inspire/chara/EvilEVRoot.ar.00
-add nGoku/w/s/Inspire/chara/EvilEVRoot.arl
-add profiles/Default.ini
+add Anim/+Sonic.ar.00
+add Anim/+Sonic.arl
+add Misc/SSO/on/+Sonic.ar.00
+add Misc/SSO/on/+Sonic.arl
+add Skin/Day/Cel/C00 B/+Sonic.ar.00
+add Skin/Day/Cel/C00 B/+Sonic.arl
+add Skin/Day/Cel/C00 B/+SuperSonic.ar.00
+add Skin/Day/Cel/C00 B/+SuperSonic.arl
+add Skin/Day/Cel/C00 B/Inspire/chara/SonicEVRoot.ar.00
+add Skin/Day/Cel/C00 B/Inspire/chara/SonicEVRoot.arl
+add Skin/Day/Cel/C00 B/Inspire/scene/+evrt_m8_11_3.ar.00
+add Skin/Day/Cel/C00 B/Inspire/scene/+evrt_m8_11_3.arl
+add Skin/Day/Cel/C01 3/+Sonic.ar.00
+add Skin/Day/Cel/C01 3/+Sonic.ar.01
+add Skin/Day/Cel/C01 3/+Sonic.arl
+add Skin/Day/Reg/C00 B/+Sonic.ar.00
+add Skin/Day/Reg/C00 B/+Sonic.arl
+add Skin/Day/Reg/C00 B/+SuperSonic.ar.00
+add Skin/Day/Reg/C00 B/+SuperSonic.arl
+add Skin/Day/Reg/C00 B/Inspire/chara/SonicEVRoot.ar.00
+add Skin/Day/Reg/C00 B/Inspire/chara/SonicEVRoot.arl
+add Skin/Day/Reg/C00 B/Inspire/scene/+evrt_m8_11_3.ar.00
+add Skin/Day/Reg/C00 B/Inspire/scene/+evrt_m8_11_3.arl
+add Skin/Day/Reg/C01 3/+Sonic.ar.00
+add Skin/Day/Reg/C01 3/+Sonic.ar.01
+add Skin/Day/Reg/C01 3/+Sonic.arl
+add Skin/Night/Cel/C00 W/+EvilSonic.ar.00
+add Skin/Night/Cel/C00 W/+EvilSonic.arl
+add Skin/Night/Cel/C00 W/+SystemCommonCore.ar.00
+add Skin/Night/Cel/C00 W/+SystemCommonCore.arl
+add Skin/Night/Cel/C00 W/Inspire/chara/EvilEVRoot.ar.00
+add Skin/Night/Cel/C00 W/Inspire/chara/EvilEVRoot.arl
+add Skin/Night/Cel/C01 4/+EvilSonic.ar.00
+add Skin/Night/Cel/C01 4/+EvilSonic.arl
+add Skin/Night/Cel/C01 4/+SystemCommonCore.ar.00
+add Skin/Night/Cel/C01 4/+SystemCommonCore.arl
+add Skin/Night/Cel/C01 4/Inspire/chara/+EvilEVRoot.ar.00
+add Skin/Night/Cel/C01 4/Inspire/chara/+EvilEVRoot.arl
+add Skin/Night/nGoku/s4/cs/+EvilSonic.ar.00
+add Skin/Night/nGoku/s4/cs/+EvilSonic.arl
+add Skin/Night/nGoku/s4/cs/+SystemCommonCore.ar.00
+add Skin/Night/nGoku/s4/cs/+SystemCommonCore.arl
+add Skin/Night/nGoku/s4/cs/Inspire/chara/EvilEVRoot.ar.00
+add Skin/Night/nGoku/s4/cs/Inspire/chara/EvilEVRoot.arl
+add Skin/Night/nGoku/s4/s/+EvilSonic.ar.00
+add Skin/Night/nGoku/s4/s/+EvilSonic.arl
+add Skin/Night/nGoku/s4/s/+SystemCommonCore.ar.00
+add Skin/Night/nGoku/s4/s/+SystemCommonCore.arl
+add Skin/Night/nGoku/s4/s/Inspire/chara/EvilEVRoot.ar.00
+add Skin/Night/nGoku/s4/s/Inspire/chara/EvilEVRoot.arl
+add Skin/Night/nGoku/w/C00 W/+EvilSonic.ar.00
+add Skin/Night/nGoku/w/C00 W/+EvilSonic.arl
+add Skin/Night/nGoku/w/C00 W/+SystemCommonCore.ar.00
+add Skin/Night/nGoku/w/C00 W/+SystemCommonCore.arl
+add Skin/Night/nGoku/w/C00 W/Inspire/chara/EvilEVRoot.ar.00
+add Skin/Night/nGoku/w/C00 W/Inspire/chara/EvilEVRoot.arl
+add Skin/Night/nGoku/w/C01 4/+EvilSonic.ar.00
+add Skin/Night/nGoku/w/C01 4/+EvilSonic.arl
+add Skin/Night/nGoku/w/C01 4/+SystemCommonCore.ar.00
+add Skin/Night/nGoku/w/C01 4/+SystemCommonCore.arl
+add Skin/Night/nGoku/w/C01 4/Inspire/chara/EvilEVRoot.ar.00
+add Skin/Night/nGoku/w/C01 4/Inspire/chara/EvilEVRoot.arl
+add Skin/Night/Reg/C00 W/+EvilSonic.ar.00
+add Skin/Night/Reg/C00 W/+EvilSonic.arl
+add Skin/Night/Reg/C00 W/+SystemCommonCore.ar.00
+add Skin/Night/Reg/C00 W/+SystemCommonCore.arl
+add Skin/Night/Reg/C00 W/Inspire/chara/EvilEVRoot.ar.00
+add Skin/Night/Reg/C00 W/Inspire/chara/EvilEVRoot.arl
+add Skin/Night/Reg/C01 4/+EvilSonic.ar.00
+add Skin/Night/Reg/C01 4/+EvilSonic.arl
+add Skin/Night/Reg/C01 4/+SystemCommonCore.ar.00
+add Skin/Night/Reg/C01 4/+SystemCommonCore.arl
+add Skin/Night/Reg/C01 4/Inspire/chara/EvilEVRoot.ar.00
+add Skin/Night/Reg/C01 4/Inspire/chara/EvilEVRoot.arl
+add Vocal/eng/Sound/vs_result_evil_e.cpk
+add Vocal/eng/Sound/vs_result_evil_e.csb
+add Vocal/eng/Sound/vs_result_sonic_e.cpk
+add Vocal/eng/Sound/vs_result_sonic_e.csb
+add Vocal/eng/voices/English/EvilSonic.ar.00
+add Vocal/eng/voices/English/EvilSonic.arl
+add Vocal/eng/voices/English/Sonic.ar.00
+add Vocal/eng/voices/English/Sonic.arl
+add Vocal/eng/voices/Japanese/EvilSonic.ar.00
+add Vocal/eng/voices/Japanese/EvilSonic.arl
+add Vocal/eng/voices/Japanese/Sonic.ar.00
+add Vocal/eng/voices/Japanese/Sonic.arl
+add Vocal/jp/Sound/vs_result_evil_e.cpk
+add Vocal/jp/Sound/vs_result_evil_e.csb
+add Vocal/jp/Sound/vs_result_sonic_e.cpk
+add Vocal/jp/Sound/vs_result_sonic_e.csb
+add Vocal/jp/voices/English/+EvilSonic.ar.00
+add Vocal/jp/voices/English/+EvilSonic.arl
+add Vocal/jp/voices/English/Sonic.ar.00
+add Vocal/jp/voices/English/Sonic.arl
+add Vocal/jp/voices/Japanese/+EvilSonic.ar.00
+add Vocal/jp/voices/Japanese/+EvilSonic.arl
+add Vocal/jp/voices/Japanese/Sonic.ar.00
+add Vocal/jp/voices/Japanese/Sonic.arl

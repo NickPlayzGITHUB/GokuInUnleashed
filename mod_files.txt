@@ -65,10 +65,10 @@ delete nGoku/w/s/+SystemCommonCore.arl
 delete nGoku/w/s/Inspire/chara/EvilEVRoot.ar.00
 delete nGoku/w/s/Inspire/chara/EvilEVRoot.arl
 delete profiles/Default.ini
+delete Anim/+Sonic.ar.00
+delete Anim/+Sonic.arl
 add config.json
 add mod.ini
-add Anim/+Sonic.ar.00
-add Anim/+Sonic.arl
 add Misc/SSO/on/+Sonic.ar.00
 add Misc/SSO/on/+Sonic.arl
 add Skin/Day/Cel/C00 B/+Sonic.ar.00
